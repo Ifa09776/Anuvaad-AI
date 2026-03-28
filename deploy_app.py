@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, send_file
 import os
+import time
 import tempfile
 from deep_translator import GoogleTranslator
 from gtts import gTTS
@@ -77,16 +78,24 @@ def translate():
                     source="auto", target=target_code
                 ).translate(original_text)
 
-                # -------- SUMMARY (cloud safe) --------
-                english_text = GoogleTranslator(
-                    source="auto", target="en"
-                ).translate(original_text)
+                time.sleep(1)
 
-                summary_eng = english_text[:300]
+                # -------- SUMMARY --------
+                if target_code == "en":
+                    # No extra call needed if target is already English
+                    summary_eng = translated[:300]
+                else:
+                    english_text = GoogleTranslator(
+                        source="auto", target="en"
+                    ).translate(original_text)
+                    time.sleep(1)
+                    summary_eng = english_text[:300]
 
                 summarized = GoogleTranslator(
                     source="en", target=target_code
                 ).translate(summary_eng)
+
+                time.sleep(1)
 
                 # -------- AUDIO --------
                 tts = gTTS(text=summarized, lang=target_code)
